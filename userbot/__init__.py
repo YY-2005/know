@@ -15,7 +15,7 @@ bot = iqthon
 StartTime = time.time()
 catversion = "7.2"
 if Config.UPSTREAM_REPO == "SO-AN":
-    UPSTREAM_REPO_URL = "https://github.com/VERSON-2005/SOANTI"
+    UPSTREAM_REPO_URL = "https://github.com/YY-2005/KNOW"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 if Config.PRIVATE_GROUP_BOT_API_ID == 0:
