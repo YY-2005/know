@@ -8,7 +8,7 @@ from .core.logger import logging
 from .core.session import iqthon
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 LOGS = logging.getLogger(
-"سورس انتيثون"
+"سورس ماتريكس "
 )
 print(
 userbot.__copyright__)
@@ -17,7 +17,7 @@ print(
 cmdhr = Config.COMMAND_HAND_LER
 try:
     LOGS.info(
-"بدء تنزيل سورس انتيثون"
+"بدء تنزيل سورس ماتريكس"
 )
     iqthon.loop.run_until_complete(
 setup_bot())
@@ -35,7 +35,7 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     print(
-f"<b> ⌔︙ اهلا بك لقد نصبت سورس انتيثون بنجاح 🇪🇬 اذهب الى قناتنا لمعرفة المزيـد ♦️. </b>\n CH : https://t.me/BU_QG "
+f"<b> ⌔︙ اهلا بك لقد نصبت سورس ماتريكس بنجاح 🇪🇬 اذهب الى قناتنا لمعرفة المزيـد ♦️. </b>\n CH : https://t.me/YY_VP "
 )
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
