@@ -1274,12 +1274,18 @@ async def fetch_info(replied_user, event):
         else (".「  العضـو  」.")
     )  
     rozrtba = (
+        ".「  رٍحٍقٌلُِبَ آسلُِآم 💞🌍   」."
+        if user_id == 5259429266 or user_id == 5259429266 or user_id == 5259429266
+        else (".「  العضـو  」.")
+    )  
+    rozrtba = (
         ".「 مـالك الحساب  」."
         if user_id == (await event.client.get_me()).id
         and user_id != 5246153486
         and user_id != 2059448162
         and user_id != 2025149451
         and user_id != 5046304853
+        and user_id != 5259429266
         else rozrtba
     )
     user_bio = "`هذا الشخص لايوجد لديه نــبــذة`" if not user_bio else user_bio
